@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro HTML</title>
+    <style>
+        body{
+            background-color: rgb(79, 79, 192);
+            color: white; /*Comentário em CSS*/
+            font: normal 25pt Arial;
+        }
+        h1 {
+            color: rgb(173, 212, 247);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1> <!-- Comentário em HTML-->
+    <p>Tradição, feita!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um Número: '))
+        var n2 = Number(window.prompt('Digite outro Número: '))
+        var s = n1 + n2
+        //window.alert("A soma dos valores é: "+ s) '+' Concatenação(str) ou Adição(number). OU
+        window.alert(`A soma dos valores é ${s}`)
+    </script>
+</body>
+</html>
